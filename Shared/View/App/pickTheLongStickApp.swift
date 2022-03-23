@@ -13,7 +13,7 @@ struct pickTheLongStickApp: App {
         WindowGroup {
             RootView()
                 .task {
-                    postInit()
+                    await postInit()
                 }
         }
     }
