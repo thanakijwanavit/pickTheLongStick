@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F1BBFC27EB16B900039F14 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1BBFB27EB16B900039F14 /* Tests_iOS.swift */; };
+		04F1BBFE27EB16B900039F14 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1BBFD27EB16B900039F14 /* Tests_iOSLaunchTests.swift */; };
+		04F1BC0827EB16B900039F14 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1BC0727EB16B900039F14 /* Tests_macOS.swift */; };
+		04F1BC0A27EB16B900039F14 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1BC0927EB16B900039F14 /* Tests_macOSLaunchTests.swift */; };
+		04F1BC0B27EB16B900039F14 /* pickTheLongStickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1BBE327EB16B800039F14 /* pickTheLongStickApp.swift */; };
+		04F1BC0C27EB16B900039F14 /* pickTheLongStickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1BBE327EB16B800039F14 /* pickTheLongStickApp.swift */; };
+		04F1BC0D27EB16B900039F14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1BBE427EB16B800039F14 /* ContentView.swift */; };
+		04F1BC0E27EB16B900039F14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1BBE427EB16B800039F14 /* ContentView.swift */; };
+		04F1BC0F27EB16B900039F14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F1BBE527EB16B900039F14 /* Assets.xcassets */; };
+		04F1BC1027EB16B900039F14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F1BBE527EB16B900039F14 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04F1BBF827EB16B900039F14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F1BBDE27EB16B800039F14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F1BBE927EB16B900039F14;
+			remoteInfo = "pickTheLongStick (iOS)";
+		};
+		04F1BC0427EB16B900039F14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F1BBDE27EB16B800039F14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F1BBEF27EB16B900039F14;
+			remoteInfo = "pickTheLongStick (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F1BBE327EB16B800039F14 /* pickTheLongStickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pickTheLongStickApp.swift; sourceTree = "<group>"; };
+		04F1BBE427EB16B800039F14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04F1BBE527EB16B900039F14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F1BBEA27EB16B900039F14 /* pickTheLongStick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pickTheLongStick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F1BBF027EB16B900039F14 /* pickTheLongStick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pickTheLongStick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F1BBF227EB16B900039F14 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		04F1BBF727EB16B900039F14 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F1BBFB27EB16B900039F14 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		04F1BBFD27EB16B900039F14 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		04F1BC0327EB16B900039F14 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F1BC0727EB16B900039F14 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		04F1BC0927EB16B900039F14 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F1BBE727EB16B900039F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F1BBED27EB16B900039F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F1BBF427EB16B900039F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F1BC0027EB16B900039F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F1BBDD27EB16B800039F14 = {
+			isa = PBXGroup;
+			children = (
+				04F1BBE227EB16B800039F14 /* Shared */,
+				04F1BBF127EB16B900039F14 /* macOS */,
+				04F1BBFA27EB16B900039F14 /* Tests iOS */,
+				04F1BC0627EB16B900039F14 /* Tests macOS */,
+				04F1BBEB27EB16B900039F14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04F1BBE227EB16B800039F14 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				04F1BBE327EB16B800039F14 /* pickTheLongStickApp.swift */,
+				04F1BBE427EB16B800039F14 /* ContentView.swift */,
+				04F1BBE527EB16B900039F14 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		04F1BBEB27EB16B900039F14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F1BBEA27EB16B900039F14 /* pickTheLongStick.app */,
+				04F1BBF027EB16B900039F14 /* pickTheLongStick.app */,
+				04F1BBF727EB16B900039F14 /* Tests iOS.xctest */,
+				04F1BC0327EB16B900039F14 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F1BBF127EB16B900039F14 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				04F1BBF227EB16B900039F14 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		04F1BBFA27EB16B900039F14 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				04F1BBFB27EB16B900039F14 /* Tests_iOS.swift */,
+				04F1BBFD27EB16B900039F14 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		04F1BC0627EB16B900039F14 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				04F1BC0727EB16B900039F14 /* Tests_macOS.swift */,
+				04F1BC0927EB16B900039F14 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F1BBE927EB16B900039F14 /* pickTheLongStick (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F1BC1327EB16B900039F14 /* Build configuration list for PBXNativeTarget "pickTheLongStick (iOS)" */;
+			buildPhases = (
+				04F1BBE627EB16B900039F14 /* Sources */,
+				04F1BBE727EB16B900039F14 /* Frameworks */,
+				04F1BBE827EB16B900039F14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pickTheLongStick (iOS)";
+			productName = "pickTheLongStick (iOS)";
+			productReference = 04F1BBEA27EB16B900039F14 /* pickTheLongStick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04F1BBEF27EB16B900039F14 /* pickTheLongStick (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F1BC1627EB16B900039F14 /* Build configuration list for PBXNativeTarget "pickTheLongStick (macOS)" */;
+			buildPhases = (
+				04F1BBEC27EB16B900039F14 /* Sources */,
+				04F1BBED27EB16B900039F14 /* Frameworks */,
+				04F1BBEE27EB16B900039F14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pickTheLongStick (macOS)";
+			productName = "pickTheLongStick (macOS)";
+			productReference = 04F1BBF027EB16B900039F14 /* pickTheLongStick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04F1BBF627EB16B900039F14 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F1BC1927EB16B900039F14 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				04F1BBF327EB16B900039F14 /* Sources */,
+				04F1BBF427EB16B900039F14 /* Frameworks */,
+				04F1BBF527EB16B900039F14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F1BBF927EB16B900039F14 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 04F1BBF727EB16B900039F14 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		04F1BC0227EB16B900039F14 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F1BC1C27EB16B900039F14 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				04F1BBFF27EB16B900039F14 /* Sources */,
+				04F1BC0027EB16B900039F14 /* Frameworks */,
+				04F1BC0127EB16B900039F14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F1BC0527EB16B900039F14 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 04F1BC0327EB16B900039F14 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F1BBDE27EB16B800039F14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					04F1BBE927EB16B900039F14 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					04F1BBEF27EB16B900039F14 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					04F1BBF627EB16B900039F14 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 04F1BBE927EB16B900039F14;
+					};
+					04F1BC0227EB16B900039F14 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 04F1BBEF27EB16B900039F14;
+					};
+				};
+			};
+			buildConfigurationList = 04F1BBE127EB16B800039F14 /* Build configuration list for PBXProject "pickTheLongStick" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F1BBDD27EB16B800039F14;
+			productRefGroup = 04F1BBEB27EB16B900039F14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F1BBE927EB16B900039F14 /* pickTheLongStick (iOS) */,
+				04F1BBEF27EB16B900039F14 /* pickTheLongStick (macOS) */,
+				04F1BBF627EB16B900039F14 /* Tests iOS */,
+				04F1BC0227EB16B900039F14 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F1BBE827EB16B900039F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F1BC0F27EB16B900039F14 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F1BBEE27EB16B900039F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F1BC1027EB16B900039F14 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F1BBF527EB16B900039F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F1BC0127EB16B900039F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F1BBE627EB16B900039F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F1BC0D27EB16B900039F14 /* ContentView.swift in Sources */,
+				04F1BC0B27EB16B900039F14 /* pickTheLongStickApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F1BBEC27EB16B900039F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F1BC0E27EB16B900039F14 /* ContentView.swift in Sources */,
+				04F1BC0C27EB16B900039F14 /* pickTheLongStickApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F1BBF327EB16B900039F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F1BBFE27EB16B900039F14 /* Tests_iOSLaunchTests.swift in Sources */,
+				04F1BBFC27EB16B900039F14 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F1BBFF27EB16B900039F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F1BC0A27EB16B900039F14 /* Tests_macOSLaunchTests.swift in Sources */,
+				04F1BC0827EB16B900039F14 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04F1BBF927EB16B900039F14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F1BBE927EB16B900039F14 /* pickTheLongStick (iOS) */;
+			targetProxy = 04F1BBF827EB16B900039F14 /* PBXContainerItemProxy */;
+		};
+		04F1BC0527EB16B900039F14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F1BBEF27EB16B900039F14 /* pickTheLongStick (macOS) */;
+			targetProxy = 04F1BC0427EB16B900039F14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04F1BC1127EB16B900039F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04F1BC1227EB16B900039F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		04F1BC1427EB16B900039F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JAT5L64V29;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tenxor.pickTheLongStick;
+				PRODUCT_NAME = pickTheLongStick;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04F1BC1527EB16B900039F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JAT5L64V29;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tenxor.pickTheLongStick;
+				PRODUCT_NAME = pickTheLongStick;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F1BC1727EB16B900039F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JAT5L64V29;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tenxor.pickTheLongStick;
+				PRODUCT_NAME = pickTheLongStick;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		04F1BC1827EB16B900039F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JAT5L64V29;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tenxor.pickTheLongStick;
+				PRODUCT_NAME = pickTheLongStick;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		04F1BC1A27EB16B900039F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JAT5L64V29;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tenxor.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pickTheLongStick (iOS)";
+			};
+			name = Debug;
+		};
+		04F1BC1B27EB16B900039F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JAT5L64V29;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tenxor.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pickTheLongStick (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F1BC1D27EB16B900039F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JAT5L64V29;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tenxor.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "pickTheLongStick (macOS)";
+			};
+			name = Debug;
+		};
+		04F1BC1E27EB16B900039F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JAT5L64V29;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tenxor.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "pickTheLongStick (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F1BBE127EB16B800039F14 /* Build configuration list for PBXProject "pickTheLongStick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F1BC1127EB16B900039F14 /* Debug */,
+				04F1BC1227EB16B900039F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F1BC1327EB16B900039F14 /* Build configuration list for PBXNativeTarget "pickTheLongStick (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F1BC1427EB16B900039F14 /* Debug */,
+				04F1BC1527EB16B900039F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F1BC1627EB16B900039F14 /* Build configuration list for PBXNativeTarget "pickTheLongStick (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F1BC1727EB16B900039F14 /* Debug */,
+				04F1BC1827EB16B900039F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F1BC1927EB16B900039F14 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F1BC1A27EB16B900039F14 /* Debug */,
+				04F1BC1B27EB16B900039F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F1BC1C27EB16B900039F14 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F1BC1D27EB16B900039F14 /* Debug */,
+				04F1BC1E27EB16B900039F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F1BBDE27EB16B800039F14 /* Project object */;
+}
