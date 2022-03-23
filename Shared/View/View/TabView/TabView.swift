@@ -9,17 +9,22 @@ import Foundation
 import SwiftUI
 
 
-struct TabView: View {
-    static var standard = TabView()
+struct MainTabView: View {
+    static var standard = MainTabView()
+    @AppStorage("tabSelection") var tabSelection = 0
     private init(){}
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView(selection: $tabSelection){
+            Text("hello world")
+                .tag(0)
+        }
     }
+    
+    
 }
 
 struct TabView_Previews: PreviewProvider {
     static var previews: some View {
-        TabView.standard
+        MainTabView.standard
     }
 }
