@@ -11,7 +11,12 @@ import SwiftUI
 struct pickTheLongStickApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
+                .task {
+                    postInit()
+                }
         }
     }
 }
+
+
