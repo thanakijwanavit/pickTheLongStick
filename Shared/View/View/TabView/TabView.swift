@@ -12,11 +12,20 @@ import SwiftUI
 struct MainTabView: View {
     static var standard = MainTabView()
     @AppStorage("tabSelection") var tabSelection = 0
-    private init(){}
+//    private init(){}
     var body: some View {
         TabView(selection: $tabSelection){
-            Text("hello world")
+            homeView
+                .tabItem({
+                    Label("home", systemImage: "house")
+                })
                 .tag(0)
+            
+            howItWorks
+                .tabItem {
+                    Label("how it works", systemImage: "questionmark.square.dashed")
+                }
+                .tag(1)
         }
     }
     
