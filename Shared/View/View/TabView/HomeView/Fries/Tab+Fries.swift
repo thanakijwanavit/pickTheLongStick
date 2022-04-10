@@ -20,8 +20,8 @@ extension MainTabView.HomeView{
         var randomeSpace = CGFloat.random(in: 20...50)
         var body: some View{
             VStack{
-                Text("\(friesId)")
-                Spacer()
+//                Text("\(friesId)")
+//                Spacer()
                 mainBody
                     .sheet(isPresented: $gameIsLost) {
                         VStack{

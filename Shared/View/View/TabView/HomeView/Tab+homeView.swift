@@ -57,17 +57,23 @@ extension MainTabView{
         }
         var header: some View{
             HStack{
-                Button("reset"){
+                Button(action: {
                     shouldReset = true
                     DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                         shouldReset = false
                     }
-                }
+                }, label: {
+                    Text("reset")
+                        .fixedSize(horizontal: true, vertical: false)
+                        .lineLimit(1)
+                })
                 .buttonStyle(.bordered)
                 .padding()
                 
                 VStack{
                     Text("short sticks: \(numberOfLosers)")
+                        .fixedSize(horizontal: true, vertical: false)
+                        .lineLimit(1)
                         .padding(.all, 5)
                     HStack{
                         Button {
@@ -90,6 +96,8 @@ extension MainTabView{
                 
                 VStack{
                     Text("players: \(numberOfPlayers)")
+                        .fixedSize(horizontal: true, vertical: false)
+                        .lineLimit(1)
                         .padding(.all, 5)
                     HStack{
                         Button {
@@ -112,8 +120,9 @@ extension MainTabView{
             }
         }
         var mainBody: some View{
-            ZStack{
+            ZStack(alignment: .bottomLeading){
                 fries
+                    .offset(x: 0, y: -100)
                 friesBox
             }
         }
@@ -123,7 +132,7 @@ extension MainTabView{
                 Rectangle()
                     .foregroundColor(.red)
                     .cornerRadius(10)
-                    .frame(height: 200, alignment: .center)
+                    .frame(height: 200, alignment: .bottomLeading)
                     .padding(.bottom)
                     .padding(.horizontal, 5)
             }
@@ -139,7 +148,7 @@ extension MainTabView{
                             
                     }
                 }
-                .frame( height: 500)
+//                .frame( height: 500)
             }
         }
         

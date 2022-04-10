@@ -13,10 +13,20 @@
 		04F1BC0A27EB16B900039F14 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1BC0927EB16B900039F14 /* Tests_macOSLaunchTests.swift */; };
 		04F1BC0B27EB16B900039F14 /* pickTheLongStickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1BBE327EB16B800039F14 /* pickTheLongStickApp.swift */; };
 		04F1BC0C27EB16B900039F14 /* pickTheLongStickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1BBE327EB16B800039F14 /* pickTheLongStickApp.swift */; };
-		04F1BC0D27EB16B900039F14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1BBE427EB16B800039F14 /* ContentView.swift */; };
-		04F1BC0E27EB16B900039F14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1BBE427EB16B800039F14 /* ContentView.swift */; };
+		04F1BC0D27EB16B900039F14 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1BBE427EB16B800039F14 /* RootView.swift */; };
+		04F1BC0E27EB16B900039F14 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1BBE427EB16B800039F14 /* RootView.swift */; };
 		04F1BC0F27EB16B900039F14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F1BBE527EB16B900039F14 /* Assets.xcassets */; };
 		04F1BC1027EB16B900039F14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F1BBE527EB16B900039F14 /* Assets.xcassets */; };
+		04F1BC2327EB17B000039F14 /* PostInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1BC2227EB17B000039F14 /* PostInit.swift */; };
+		04F1BC2427EB17B000039F14 /* PostInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1BC2227EB17B000039F14 /* PostInit.swift */; };
+		04F1BC2727EB18D800039F14 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1BC2627EB18D800039F14 /* TabView.swift */; };
+		04F1BC2827EB18D800039F14 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1BC2627EB18D800039F14 /* TabView.swift */; };
+		04F1BC2B27EB1A7900039F14 /* Tab+homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1BC2A27EB1A7900039F14 /* Tab+homeView.swift */; };
+		04F1BC2C27EB1A7900039F14 /* Tab+homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1BC2A27EB1A7900039F14 /* Tab+homeView.swift */; };
+		04F1BC2F27EB90BA00039F14 /* MainTabView+howItWorks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1BC2E27EB90BA00039F14 /* MainTabView+howItWorks.swift */; };
+		04F1BC3027EB90BA00039F14 /* MainTabView+howItWorks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1BC2E27EB90BA00039F14 /* MainTabView+howItWorks.swift */; };
+		04F1BC3327EBDF7D00039F14 /* Tab+Fries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1BC3227EBDF7D00039F14 /* Tab+Fries.swift */; };
+		04F1BC3427EBDF7D00039F14 /* Tab+Fries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1BC3227EBDF7D00039F14 /* Tab+Fries.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +48,7 @@
 
 /* Begin PBXFileReference section */
 		04F1BBE327EB16B800039F14 /* pickTheLongStickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pickTheLongStickApp.swift; sourceTree = "<group>"; };
-		04F1BBE427EB16B800039F14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04F1BBE427EB16B800039F14 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		04F1BBE527EB16B900039F14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04F1BBEA27EB16B900039F14 /* pickTheLongStick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pickTheLongStick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F1BBF027EB16B900039F14 /* pickTheLongStick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pickTheLongStick.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +59,11 @@
 		04F1BC0327EB16B900039F14 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F1BC0727EB16B900039F14 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		04F1BC0927EB16B900039F14 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		04F1BC2227EB17B000039F14 /* PostInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostInit.swift; sourceTree = "<group>"; };
+		04F1BC2627EB18D800039F14 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		04F1BC2A27EB1A7900039F14 /* Tab+homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tab+homeView.swift"; sourceTree = "<group>"; };
+		04F1BC2E27EB90BA00039F14 /* MainTabView+howItWorks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainTabView+howItWorks.swift"; sourceTree = "<group>"; };
+		04F1BC3227EBDF7D00039F14 /* Tab+Fries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tab+Fries.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +112,7 @@
 		04F1BBE227EB16B800039F14 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				04F1BBE327EB16B800039F14 /* pickTheLongStickApp.swift */,
-				04F1BBE427EB16B800039F14 /* ContentView.swift */,
+				04F1BC1F27EB16F200039F14 /* View */,
 				04F1BBE527EB16B900039F14 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -139,6 +153,68 @@
 				04F1BC0927EB16B900039F14 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		04F1BC1F27EB16F200039F14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04F1BC2027EB16F900039F14 /* App */,
+				04F1BC2127EB170200039F14 /* View */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04F1BC2027EB16F900039F14 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				04F1BBE327EB16B800039F14 /* pickTheLongStickApp.swift */,
+				04F1BC2227EB17B000039F14 /* PostInit.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		04F1BC2127EB170200039F14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04F1BBE427EB16B800039F14 /* RootView.swift */,
+				04F1BC2527EB18C900039F14 /* TabView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04F1BC2527EB18C900039F14 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				04F1BC2627EB18D800039F14 /* TabView.swift */,
+				04F1BC2D27EB909900039F14 /* HowItWorks */,
+				04F1BC2927EB1A6A00039F14 /* HomeView */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		04F1BC2927EB1A6A00039F14 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				04F1BC2A27EB1A7900039F14 /* Tab+homeView.swift */,
+				04F1BC3127EBDF6F00039F14 /* Fries */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		04F1BC2D27EB909900039F14 /* HowItWorks */ = {
+			isa = PBXGroup;
+			children = (
+				04F1BC2E27EB90BA00039F14 /* MainTabView+howItWorks.swift */,
+			);
+			path = HowItWorks;
+			sourceTree = "<group>";
+		};
+		04F1BC3127EBDF6F00039F14 /* Fries */ = {
+			isa = PBXGroup;
+			children = (
+				04F1BC3227EBDF7D00039F14 /* Tab+Fries.swift */,
+			);
+			path = Fries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,8 +375,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04F1BC0D27EB16B900039F14 /* ContentView.swift in Sources */,
+				04F1BC2F27EB90BA00039F14 /* MainTabView+howItWorks.swift in Sources */,
+				04F1BC3327EBDF7D00039F14 /* Tab+Fries.swift in Sources */,
+				04F1BC0D27EB16B900039F14 /* RootView.swift in Sources */,
 				04F1BC0B27EB16B900039F14 /* pickTheLongStickApp.swift in Sources */,
+				04F1BC2727EB18D800039F14 /* TabView.swift in Sources */,
+				04F1BC2B27EB1A7900039F14 /* Tab+homeView.swift in Sources */,
+				04F1BC2327EB17B000039F14 /* PostInit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +389,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04F1BC0E27EB16B900039F14 /* ContentView.swift in Sources */,
+				04F1BC3027EB90BA00039F14 /* MainTabView+howItWorks.swift in Sources */,
+				04F1BC3427EBDF7D00039F14 /* Tab+Fries.swift in Sources */,
+				04F1BC0E27EB16B900039F14 /* RootView.swift in Sources */,
 				04F1BC0C27EB16B900039F14 /* pickTheLongStickApp.swift in Sources */,
+				04F1BC2827EB18D800039F14 /* TabView.swift in Sources */,
+				04F1BC2C27EB1A7900039F14 /* Tab+homeView.swift in Sources */,
+				04F1BC2427EB17B000039F14 /* PostInit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,13 +562,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = tenxor.pickTheLongStick;
 				PRODUCT_NAME = pickTheLongStick;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -506,13 +592,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = tenxor.pickTheLongStick;
 				PRODUCT_NAME = pickTheLongStick;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
